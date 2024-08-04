@@ -7,7 +7,7 @@ export const Route = createRootRoute({
 
 function NavBar() {
   return (
-    <div className="p-2 flex justify-between">
+    <div className="p-2 flex justify-around">
       <Link to="/" className="[&.active]:font-bold">
         Home
       </Link>{" "}
